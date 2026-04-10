@@ -1,0 +1,14 @@
+/* 떠다니는 카드 애니메이션 — CSS 변수로 딜레이 다르게 설정 */
+@keyframes floatUp {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+.floating-card-1 {
+  animation: floatUp 3s ease-in-out infinite;
+}
+
+.floating-card-2 {
+  animation: floatUp 3.5s ease-in-out infinite 0.5s;
+}
